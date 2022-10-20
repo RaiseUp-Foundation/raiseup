@@ -144,8 +144,8 @@ h6 {
 #header .logo {
   font-size: 30px;
   margin: 0;
-  padding: 0;
-  line-height: 1;
+  padding: 0px 100px 0px 0px;
+  line-height: 0;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -184,7 +184,7 @@ h6 {
 
 @media (max-width: 992px) {
   .get-started-btn {
-    padding: 7px 20px 8px 20px;
+    padding: 7px 50px 8px 20px;
     margin-right: 15px;
   }
 }
@@ -196,7 +196,7 @@ h6 {
 * Desktop Navigation 
 */
 .navbar {
-  padding: 0;
+  padding: 0px 100px 0px 0px;
 }
 
 .navbar ul {
@@ -216,7 +216,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 20px 0 10px 30px;
   font-size: 15px;
   font-weight: 600;
   color: #fff;
